@@ -1,0 +1,28 @@
+/* Global Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background: #f8cc2f;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+
+  h1 {
+    color: #393939;
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+  }
+}

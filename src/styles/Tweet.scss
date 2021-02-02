@@ -1,0 +1,35 @@
+.tweet {
+  background: #fff;
+  width: 90%;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: #393939;
+    width: 95%;
+    margin: auto;
+    padding: 1rem 0;
+  }
+  h3 {
+    padding: 1rem 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  button {
+    border: none;
+    background: #393939;
+    color: #e00000;
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+}

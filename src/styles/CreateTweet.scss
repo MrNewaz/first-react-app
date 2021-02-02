@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 5rem;
+  margin-bottom: 2rem;
+  background: red;
+  textarea {
+    width: 90%;
+    height: 100%;
+    border: 2px solid #393939;
+    font-size: 2rem;
+    text-align: center;
+  }
+  button {
+    width: 10%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: #393939;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  form {
+    width: 90%;
+    textarea {
+      width: 85%;
+    }
+    button {
+      width: 15%;
+    }
+  }
+}
