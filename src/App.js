@@ -5,10 +5,9 @@ import { useState, useEffect } from "react";
 import "./styles/App.scss";
 
 function App() {
-  const [name, setName] = useState("- Saif");
+  const [name] = useState("- Saif");
   const [textInput, setTextInput] = useState("");
   const [tweets, setTweets] = useState([]);
-  const message = "React Shikhtesi Khub";
 
   useEffect(() => {
     console.log("Yeeeeeet");
